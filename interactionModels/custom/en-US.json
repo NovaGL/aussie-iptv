@@ -1,0 +1,532 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": [
+            "home"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.MoreIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateSettingsIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageUpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollRightIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollLeftIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollUpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.SelectIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "ChannelName",
+              "type": "TelevisionChannel"
+            }
+          ],
+          "name": "ChannelRequest",
+          "samples": [
+            "switch to {ChannelName}",
+            "play {ChannelName}",
+            "channel {ChannelName} ",
+            "change to channel {ChannelName}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "HomeIntent",
+          "samples": [
+            "view main",
+            "return to main",
+            "open video sample",
+            "view home",
+            "main screen",
+            "return home",
+            "go home"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "rush",
+                  "nine flush",
+                  "nine rush"
+                ],
+                "value": "9Rush"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "N I TV"
+                ],
+                "value": "NITV"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "world",
+                  "movies",
+                  "s b s world",
+                  "world movies hd",
+                  "world movies"
+                ],
+                "value": "SBS World Movies"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "bold",
+                  "ten old"
+                ],
+                "value": "10 Bold"
+              },
+              "id": "12"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "peach",
+                  "10 each"
+                ],
+                "value": "10 Peach"
+              },
+              "id": "11"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "seven flicks",
+                  "flicks",
+                  "seven flix"
+                ],
+                "value": "7flix"
+              },
+              "id": "76"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "seven ate",
+                  "seven mate"
+                ],
+                "value": "7mate"
+              },
+              "id": "73"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "seven TWO"
+                ],
+                "value": "7TWO"
+              },
+              "id": "72"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "nine gen",
+                  "nine Gem"
+                ],
+                "value": "9Gem"
+              },
+              "id": "92"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "nine oh",
+                  "nine Go"
+                ],
+                "value": "9Go!"
+              },
+              "id": "93"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "nine live",
+                  "9 live",
+                  "nine Life"
+                ],
+                "value": "9Life"
+              },
+              "id": "94"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "channel two",
+                  "channel abc",
+                  "a b c"
+                ],
+                "value": "ABC"
+              },
+              "id": "2"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ABC two",
+                  "A b c kids"
+                ],
+                "value": "ABC KIDS"
+              },
+              "id": "22"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ABC m e",
+                  "a b c m e",
+                  "A b c me"
+                ],
+                "value": "ABC ME"
+              },
+              "id": "23"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "a b c news 24",
+                  "A b c news"
+                ],
+                "value": "ABC NEWS"
+              },
+              "id": "24"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "nine",
+                  "channel nine"
+                ],
+                "value": "Channel 9"
+              },
+              "id": "9"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "s b s",
+                  "channel 3",
+                  "channel sbs"
+                ],
+                "value": "SBS"
+              },
+              "id": "3"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "S B S Food"
+                ],
+                "value": "SBS Food"
+              },
+              "id": "33"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "viceland",
+                  "S B S viceland hd",
+                  "S B S viceland",
+                  "sbs viceland"
+                ],
+                "value": "SBS VICELAND HD"
+              },
+              "id": "32"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "seven network",
+                  "channel seven"
+                ],
+                "value": "Seven"
+              },
+              "id": "7"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "network ten",
+                  "channel ten",
+                  "10"
+                ],
+                "value": "TEN"
+              },
+              "id": "10"
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ABC Plus"
+                ],
+                "value": "ABC TV Plus"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "SBS Watch",
+                  "Word Watch"
+                ],
+                "value": "SBS World Watch"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "Seven Bravo",
+                  "Bravo"
+                ],
+                "value": "7Bravo"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "Seven Cricket",
+                  "Cricket"
+                ],
+                "value": "7Cricket"
+              }
+            },
+            {
+              "name": {
+                "value": "Rush"
+              }
+            },
+            {
+              "name": {
+                "value": "Al Jazeera"
+              }
+            },
+            {
+              "name": {
+                "value": "Biopic"
+              }
+            },
+            {
+              "name": {
+                "value": "Bloomberg TV"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "C31"
+                ],
+                "value": "Channel 31"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "News Asia",
+                  "Asia"
+                ],
+                "value": "Channel News Asia"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "Fuel TV"
+                ],
+                "value": "FuelTV"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "NTV POP",
+                  "M.T.V Pop",
+                  "POP"
+                ],
+                "value": "MTV Biggest Pop"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "Dating"
+                ],
+                "value": "MTV Dating"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "Drama"
+                ],
+                "value": "MTV Drama"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "N TV",
+                  "NTV",
+                  "M.T.V",
+                  "Entertainment"
+                ],
+                "value": "MTV Entertainment"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "Love"
+                ],
+                "value": "MTV Love"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "Reality"
+                ],
+                "value": "MTV Reality"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "Retro"
+                ],
+                "value": "MTV Retro"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "Classics"
+                ],
+                "value": "Nick Classics"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "Nick Junior"
+                ],
+                "value": "Nick Jr Club"
+              }
+            },
+            {
+              "name": {
+                "value": "Nick Movies"
+              }
+            },
+            {
+              "name": {
+                "value": "Nick Rewind"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "Nick"
+                ],
+                "value": "Nickelodeon"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "Nick Teen"
+                ],
+                "value": "NickTeen"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "Nick Toons"
+                ],
+                "value": "NickToons"
+              }
+            }
+          ],
+          "name": "TelevisionChannel"
+        }
+      ],
+      "invocationName": "video sample",
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  }
+}

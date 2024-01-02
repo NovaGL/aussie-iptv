@@ -17,21 +17,83 @@
           "description": "Watch TV on your Echo Show",
           "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
           "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "en-CA": {
+          "summary": "Watch TV on your Echo Show",
+          "examplePhrases": [
+            "Alexa, open video sample",
+            "Alexa, play channel ten from video sample",
+            "help"
+          ],
+          "keywords": [
+            "tv",
+            "iptv"
+          ],
+          "name": "Aussie IPTV",
+          "description": "Watch TV on your Echo Show",
+          "smallIconUri": "file://assets/images/en-CA_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-CA_largeIconUri.png"
+        },
+        "en-IN": {
+          "summary": "Watch TV on your Echo Show",
+          "examplePhrases": [
+            "Alexa, open video sample",
+            "Alexa, play channel ten from video sample",
+            "help"
+          ],
+          "keywords": [
+            "tv",
+            "iptv"
+          ],
+          "name": "Aussie IPTV",
+          "description": "Watch TV on your Echo Show",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        },
+        "en-AU": {
+          "summary": "Watch TV on your Echo Show",
+          "examplePhrases": [
+            "Alexa, open video sample",
+            "Alexa, play channel ten from video sample",
+            "help"
+          ],
+          "keywords": [
+            "tv",
+            "iptv"
+          ],
+          "name": "Aussie IPTV",
+          "description": "Watch TV on your Echo Show",
+          "smallIconUri": "file://assets/images/en-AU_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-AU_largeIconUri.png"
+        },
+        "en-GB": {
+          "summary": "Watch TV on your Echo Show",
+          "examplePhrases": [
+            "Alexa, open video sample",
+            "Alexa, play channel ten from video sample",
+            "help"
+          ],
+          "keywords": [
+            "tv",
+            "iptv"
+          ],
+          "name": "Aussie IPTV",
+          "description": "Watch TV on your Echo Show",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
         }
-      },
-      "automaticDistribution": {
-        "sourceLocaleForLanguages": [
-          {
-            "sourceLocale": "en-US",
-            "language": "en"
-          }
-        ],
-        "isActive": true
       },
       "isAvailableWorldwide": true,
       "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Sample Testing Instructions.\"}",
       "category": "TV_GUIDES",
       "distributionMode": "PUBLIC",
+      "automaticClonedLocale": {
+        "locales": [
+          {
+            "source": "en-US"
+          }
+        ]
+      },
       "distributionCountries": []
     },
     "apis": {
@@ -158,15 +220,23 @@
       "locales": {
         "en-US": {
           "privacyPolicyUrl": "https://www.jovo.tech/privacy"
+        },
+        "en-CA": {
+          "privacyPolicyUrl": "https://www.jovo.tech/privacy"
+        },
+        "en-IN": {
+          "privacyPolicyUrl": "https://www.jovo.tech/privacy"
+        },
+        "en-AU": {
+          "privacyPolicyUrl": "https://www.jovo.tech/privacy"
+        },
+        "en-GB": {
+          "privacyPolicyUrl": "https://www.jovo.tech/privacy"
         }
       },
       "containsAds": false,
       "isExportCompliant": true,
       "isChildDirected": false,
-      "shoppingKit": {
-        "isShoppingActionsEnabled": false,
-        "isAmazonAssociatesOnAlexaEnabled": false
-      },
       "usesPersonalInfo": false
     }
   }

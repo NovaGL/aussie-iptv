@@ -20,8 +20,8 @@ const LaunchRequestHandler = {
             .addDirective({
                 type: 'Alexa.Presentation.APL.RenderDocument',
                 version: '1.0',
-                document: require("./custom/apl/document.json"),
-                datasources: require("./custom/apl/data-sources.json")
+                document: require("./apl/document.json"),
+                datasources: require("./apl/data-sources.json")
             })
             .getResponse();
     },
@@ -159,8 +159,8 @@ const HomeIntentHandler = {
         const homeScreenDirective = {
             type: 'Alexa.Presentation.APL.RenderDocument',
             token: 'homeScreenToken', // Replace with a unique token for the home screen
-            document: require('./custom/apl/document.json'), // Replace with the actual path to your home screen document
-            datasources: require('./custom/apl/data-sources.json'), // Replace with the actual path to your home screen data sources
+            document: require('./apl/document.json'), // Replace with the actual path to your home screen document
+            datasources: require('./apl/data-sources.json'), // Replace with the actual path to your home screen data sources
         };
 
         handlerInput.responseBuilder.addDirective(homeScreenDirective);
@@ -262,7 +262,7 @@ function handleVideoPlayback(handlerInput, channelName, videoURL, token) {
 
 // Function to get the video URL and additional data based on the selected channel
 function getChannel(selectedElement) {
-    var channels = require("./custom/data/nsw-channels.json");
+    var channels = require("./data/nsw-channels.json");
     const channelData = channels[selectedElement];
 
     if (channelData && channelData.url) {
